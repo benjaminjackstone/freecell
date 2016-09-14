@@ -45,6 +45,9 @@
     <ClInclude Include="cell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="memdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FreeCellStarter2010.cpp">

@@ -106,6 +106,7 @@
     <ClInclude Include="cell.h" />
     <ClInclude Include="FreeCellStarter2010.h" />
     <ClInclude Include="FreeCellStarter2010Dlg.h" />
+    <ClInclude Include="memdc.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -127,4 +128,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="FreeCellStarter2010.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
